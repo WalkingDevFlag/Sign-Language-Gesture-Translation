@@ -36,8 +36,6 @@ This project implements a system for continuous Indian Sign Language (ISL) trans
   - Live inference using a webcam.
   - Loads the trained model and label map to output the translated gesture.
 
-- **requirements.txt**  
-  Lists all the dependencies required to run the project.
 
 ## Installation
 
