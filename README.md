@@ -2,19 +2,6 @@
 
 This project implements a system for continuous Indian Sign Language (ISL) translation and recognition using PyTorch. It extracts keypoints from sign language videos using MediaPipe, preprocesses the data, trains an LSTM-based model (with an optional attention mechanism) to recognize gestures, and provides tools for evaluation and real-time inference.
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Dataset](#dataset)
-- [Data Preprocessing](#data-preprocessing)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Inference](#inference)
-- [Testing (Batch and Live)](#testing-batch-and-live)
-- [Known Issues and Future Improvements](#known-issues-and-future-improvements)
-- [License](#license)
-
 ## Project Structure
 
 - **preprocessing.py**  
