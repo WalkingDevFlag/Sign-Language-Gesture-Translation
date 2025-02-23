@@ -42,7 +42,7 @@ This project implements a system for continuous Indian Sign Language (ISL) trans
 1. **Clone the Repository:**
    ```bash
    git clone <repository_url>
-   cd Continuous-Sign-Language-Translation-and-Recognition
+   cd Sign-Language-Gesture-Translation/src
    ```
 
 2. **Create and Activate a Conda Environment:**
