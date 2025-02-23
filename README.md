@@ -1,6 +1,6 @@
 # Sign Language Gesture Translation
 
-This project implements a system for continuous Indian Sign Language (ISL) translation and recognition using PyTorch. It extracts keypoints from sign language videos using MediaPipe, preprocesses the data, trains an LSTM-based model (with an optional attention mechanism) to recognize gestures, and provides tools for evaluation and real-time inference.
+This project implements a system for continuous Indian Sign Language (ISL) translation and recognition using PyTorch. It extracts keypoints from sign language videos using MediaPipe, preprocesses the data, trains a basic LSTM-based model (with an optional attention mechanism) to recognize gestures, and provides tools for evaluation and real-time inference.
 
 ## Project Structure
 
@@ -45,13 +45,10 @@ This project implements a system for continuous Indian Sign Language (ISL) trans
    cd Continuous-Sign-Language-Translation-and-Recognition
    ```
 
-2. **Create and Activate a Virtual Environment:**
+2. **Create and Activate a Conda Environment:**
    ```bash
-   python -m venv venv
-   # On Linux/Mac:
-   source venv/bin/activate
-   # On Windows:
-   venv\Scripts\activate
+   conda create -n isl_env python=3.10
+   conda activate isl_env
    ```
 
 3. **Install Dependencies:**
